@@ -78,12 +78,13 @@ function parseGit(logs) {
 	var arr = [];
 	for(var i in logs){
 		var words = logs[i].split(' ');
+		var d = words[1].concat(words[2] + " " + words[3] + " " + words[4] + " " + words[5] + " " + words[6]);
 		for(var x in words)
 		{
 			if(words[x] === undefined)
 				words[x] = "";
 		}
-		var gitlog = {hash: words[0], date: words[1] + words[2] + words[3] + words[4] + words[5] + words[6], message: words[7] + words[8] + words[9] + words[10] + words[11] };
+		var gitlog = {hash: words[0],  date: new Date(d), message: words[7] + ' ' + words[8] };
 		arr.push(gitlog);
 	}
 	
