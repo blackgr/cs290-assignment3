@@ -10,10 +10,12 @@
 
 function returnObjectLiteral() {
   //your code here
-  var ob = {type:'Goldfish',
-		    brand:'Pepperidge Farm',
-		    flavor:'Cheddar',
-            count:2000}
+  var ob = {
+	type : 'Goldfish',
+	brand : 'Pepperidge Farm',
+	flavor : 'Cheddar',
+    count : 2000
+  };
   return ob; //Modify ONLY this line
   //end your code
 }

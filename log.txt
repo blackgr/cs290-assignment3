@@ -1,5 +1,15 @@
 Start: Mon, 20 Apr 2015 15:50 -0500
 End: Mon, 20 Apr 2015 16:50 -0500
-Tasks: Created and cloned git repository. Started log finished function.js, wrote first function for objects.js
+Tasks: Created and cloned git repository. Started log,wrote function.js, wrote first function for objects.js
 
-7.50
+Start: Mon, 20 Apr 2015 19:50 -0500
+End: Mon, 20 Apr 2015 22:50 -0500
+Tasks: Wrote and debugged variables.js. Struggled getting useless function be to defined on qunit runner. 
+
+Start: Tue, 21 Apr 2015 18:45 -0500
+End: Tue, 21 Apr 2015 23:00 -0500
+Tasks:Debugged first two funtions on function.js. Worked on ParseGit
+
+
+22
+4:30
