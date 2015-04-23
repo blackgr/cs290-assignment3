@@ -15,5 +15,14 @@ End: Wed, 22 Apr 2015 19:00 -0500
 Tasks:Got date of parse git on function.js to work.
 
 Start: Wed, 22 Apr 2015 19:30 -0500
-End: Wed, 22 Apr 2015 :00 -0500
+End: Wed, 22 Apr 2015 21:15 -0500
 Tasks: Finished functions.js and starting working on / fixing objects.js
+
+Start: Thurs, 23 Apr 2015 00:45 -0500
+End: Thurs, 23 Apr 2015 3:00 -0500
+Tasks:Worked on message log
+
+
+Start: Thurs, 23 Apr 2015 12:45 -0500
+End: Thurs, 23 Apr 2015 16:17 -0500
+Tasks:Finally finished part 1 of the assignment. 

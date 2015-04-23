@@ -79,13 +79,13 @@ function parseGit(logs) {
 	var mess = [];
 	for(var i in logs){
 		var words = logs[i].split(' ');
-		var d = words[1].concat(words[2] + " " + words[3] + " " + words[4] + " " + words[5] + " " + words[6]);
+		var d = words[1].concat(words[2] + " " + words[3] + " " + words[4] + " " + words[5] + " " + words[6]);  //d for date
 		for(var x in words) {
 			if(x > 6)
 				mess[x-6] = words[x];
 		}
-		var m = mess.join(" ");
-		var j = [];
+		var m = mess.join(" ");						//m for message
+		var j = [];									//j cause i needed letter to hold what is in m
 		j = m.split("\"");
 		var gitlog = {hash: words[0],  date: new Date(d), message: j[1] };
 		arr.push(gitlog);
