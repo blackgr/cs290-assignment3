@@ -76,15 +76,18 @@ function GitLog(hash, date, message) {
 //your code here
 function parseGit(logs) {
 	var arr = [];
+	var mess = [];
 	for(var i in logs){
 		var words = logs[i].split(' ');
 		var d = words[1].concat(words[2] + " " + words[3] + " " + words[4] + " " + words[5] + " " + words[6]);
-		for(var x in words)
-		{
-			if(words[x] === undefined)
-				words[x] = "";
+		for(var x in words) {
+			if(x > 6)
+				mess[x-6] = words[x];
 		}
-		var gitlog = {hash: words[0],  date: new Date(d), message: words[7] + ' ' + words[8] };
+		var m = mess.join(" ");
+		var j = [];
+		j = m.split("\"");
+		var gitlog = {hash: words[0],  date: new Date(d), message: j[1] };
 		arr.push(gitlog);
 	}
 	

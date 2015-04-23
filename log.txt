@@ -10,6 +10,10 @@ Start: Tue, 21 Apr 2015 18:45 -0500
 End: Tue, 21 Apr 2015 23:00 -0500
 Tasks:Debugged first two funtions on function.js. Worked on ParseGit
 
+Start: Wed, 22 Apr 2015 16:30 -0500
+End: Wed, 22 Apr 2015 19:00 -0500
+Tasks:Got date of parse git on function.js to work.
 
-22
-4:30
+Start: Wed, 22 Apr 2015 19:30 -0500
+End: Wed, 22 Apr 2015 :00 -0500
+Tasks: Finished functions.js and starting working on / fixing objects.js
